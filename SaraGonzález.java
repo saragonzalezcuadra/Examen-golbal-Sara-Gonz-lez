@@ -42,6 +42,11 @@ public class SaraGonzález {
                     System.out.println(num+" kilómetros son "+result+" metros.");
                     break;
                 case 3:
+                    System.out.println("Introduce los km/h: ");
+                    num=teclado.nextInt();
+                    result=num/3.6;
+                    System.out.println(num+" km/h son "+result+" m/s");
+                case 4:
                     System.out.println("Has salido.");
                     break;
                 default: 
